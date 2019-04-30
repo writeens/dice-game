@@ -26,15 +26,7 @@
       justify-content: center;
       align-items: center;
   }
-.RollDice-dice {
-      border: 1px solid red;
-      margin: 2rem;
-  }
-.RollDice-dice i {
-      font-size: 15rem;
-      color: rgb(57, 226, 14);
 
-  }
 .RollDice-btn {
     border-radius: 0.5rem;
     background-color: rgb(128, 122, 122);

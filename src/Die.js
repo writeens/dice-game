@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
+import "./Die.css";
 
 class Die extends Component {
     render() {
-        return <i className={`fas fa-dice-${this.props.dice}`}></i>
+        return <i className={`Die fas fa-dice-${this.props.dice}`}></i>
     }
 }
 export default Die;

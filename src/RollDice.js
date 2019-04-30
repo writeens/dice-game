@@ -39,7 +39,7 @@ class RollDice extends Component {
     }
     render() {
         // Ternary Operations for animation and button
-        let shake = (this.state.isRolling) ? "RollDice-dice shake" : "RollDice-dice";
+        let shake = (this.state.isRolling) ? "shake" : "";
         let unclickable = (this.state.isRolling) ? 
         <button className="RollDice-btn" onClick={this.roll} disabled>Rolling...</button> : 
         <button className="RollDice-btn" onClick={this.roll}>Roll Dice</button>

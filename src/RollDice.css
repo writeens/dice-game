@@ -1,0 +1,50 @@
+.shake {
+    animation: shake 0.8s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    perspective: 1000px;
+  }
+  
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(5px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-8px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(10px, 0, 0);
+    }
+  }
+.RollDice-table {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+.RollDice-dice {
+      border: 1px solid red;
+      margin: 2rem;
+  }
+.RollDice-dice i {
+      font-size: 15rem;
+      color: rgb(57, 226, 14);
+
+  }
+.RollDice-btn {
+    border-radius: 0.5rem;
+    background-color: rgb(128, 122, 122);
+    border: 1px;
+    box-shadow: 14px 20px 52px -9px rgba(0,0,0,0.34);
+    font-size: 1rem;
+    cursor: pointer;
+    color: white;
+    padding: 1rem 3rem 1rem 3rem;
+}
+.RollDice-btn:hover {
+    background-color: rgb(57, 226, 14);
+}
